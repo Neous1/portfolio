@@ -1,0 +1,42 @@
+building a portfolio page
+
+This document is to give a layout of my portfolio page and a user would interact with it 
+go
+page shows a navbar with all the section
+the sections are 
+    About me
+    Resume
+    Portfolio 
+    Contact Me 
+when the page loads a background picture should cover the viewing area 
+when the page loads there should be a quick introduction of myself 
+when the page loads there is button to get linked to the about me section 
+
+the About Me section
+This section is a brief description of my background as a developer and, minimally about my other interests such as Photography.
+it should have a button taking the user to my resume section
+
+the Resume section 
+should have my professional introduction
+it should have a link to my resume 
+and a button to my linkedIn page
+
+Portfolio section
+this sectin will have a thumbnails of my personal projects
+each thumbnails should point to the respective github page and github repo.
+    
+Projects:
+    A gallery for photos
+    A tribute page to John Coltrane 
+    ideas:
+        
+
+
+the Contact Me section
+this section will contains 
+    www.egofstop.com
+    facebook
+    twitter
+    linkedIn
+
+
