@@ -19,7 +19,7 @@ navbar {
     background-color: rgba(0, 0, 0, .5);
     z-index: 99;
 }
-
+/* Main Section ********************************************/
 .sect{
     height: 100%;
     background-size: cover;
@@ -31,15 +31,16 @@ navbar {
     height: 50%;
     background-color: bisque;
 }
-
+/* About Me Section *************About Me Section **********About Me Section ***********************************/
 .aboutMe{
-    background-image: url("/images/markus-spiske2.jpg");
-    /*background-image: url('http://127.0.0.1:8000/images/D4_20160625_6309-EFd.jpg');*/
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.6)),    
+    url("/images/markus-spiske-109588.jpg");
     color: white;
 
 }
 .flexcontainer{
-    padding-top: 300px;
+    padding-top: 250px;
 	display:flex;
 	margin: 1em 0;
 	border: 1px solid #333;
@@ -51,7 +52,6 @@ navbar {
     text-align: center
 }
 .headshot img{
-    size: 150px 150px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -76,15 +76,19 @@ navbar {
 
 }
 
-
+/* resume****************  resume**************** resume****************/
 .resume{
-    background-image: url("/images/resume copy.jpg");    
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)),    
+    url("/images/resume copy.jpg");    
     font-size: 24px;
+    color: white;
 }
 
 .covertext{
     display: flex;
     flex-flow: column;
+    color: white;
 }
 
 .covertext1{
@@ -93,8 +97,12 @@ navbar {
 .covertext2{
     flex: 3;
 }
+
+/* Tutorials ************** Tutorials ************** Tutorials **************/
 .tutorials{
-    background-image: url("/images/drums copy.jpg");
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)),    
+    url("/images/drums copy.jpg");
     /*opacity: .2;*/
 
 
@@ -107,37 +115,24 @@ navbar {
     background: rgba(255,255,255,.92)
 }*/
 
+
+/* Porfolio ************** Porfolio ************** Porfolio ************** Porfolio **************/
 .portfolio{
     
-    background-image: url("/images/office.jpg");
-
-
-}
-
-/*.portfolio:after {
-    content: ' ';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,.5);
-    z-index: 1;
-}*/
-
-
-.contactMe{
-    background-image: url('/images/motorcycle.jpg');
-}
-
-.bgimg-inner{
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
-
-.portfolio{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)),    
+    url("/images/office.jpg");
     color: white;
 }
+
+
+/* Contact Me************* Contact Me************* Contact Me************* Contact Me*************/
+.contactMe{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)),    
+    url('/images/motorcycle.jpg');
+}
+
 
 .thumbnail{        
     /*width: 300px; */
