@@ -1,0 +1,5 @@
+My portfolio website
+
+this document details the design and layout of the site.
+
+the main requirement of the site is to have a sc
