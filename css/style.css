@@ -7,6 +7,7 @@
 html, body{
     height: 100%;
     /*background-image: url('http://127.0.0.1:8000/images/D4_20160625_6309-EFd.jpg')*/
+    background-color: black;
 }
 h1,h2,h3,h4,h5,h6, p{
     margin-bottom: 20px;
@@ -31,7 +32,7 @@ navbar {
     height: 50%;
     background-color: bisque;
 }
-/* About Me Section *************About Me Section **********About Me Section ***********************************/
+/* About Me Section ************ About Me Section ********* About Me Section ***********************************/
 .aboutMe{
     background-image: 
     linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.6)),    
@@ -40,7 +41,7 @@ navbar {
 
 }
 .flexcontainer{
-    padding-top: 250px;
+    padding-top: 200px; /*move the content downward*/
 	display:flex;
 	margin: 1em 0;
 	border: 1px solid #333;
@@ -70,7 +71,6 @@ navbar {
     border: 1px solid #fff;
 }
 .aboutarrow{
-    /*text-align: center;*/
     justify-content: center;
     border: 1px solid #fff;
 
@@ -98,22 +98,18 @@ navbar {
     flex: 3;
 }
 
-/* Tutorials ************** Tutorials ************** Tutorials **************/
+/* Education ************** Education ************** Education ************** Education ************** Education ************** Tutorials ************** Tutorials **************/
 .tutorials{
     background-image: 
     linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)),    
-    url("/images/drums copy.jpg");
+    url("/images/library copy.jpg");
     /*opacity: .2;*/
 
 
 }
-
 .text{
     color: black;
 }
-/*.overlay{
-    background: rgba(255,255,255,.92)
-}*/
 
 
 /* Porfolio ************** Porfolio ************** Porfolio ************** Porfolio **************/
@@ -121,7 +117,7 @@ navbar {
     
     background-image: 
     linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)),    
-    url("/images/office.jpg");
+    url("/images/flowchart copy.png");
     color: white;
 }
 
