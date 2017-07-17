@@ -44,8 +44,8 @@ navbar {
 .flexcontainer{
     padding-top: 200px; /*move the content downward*/
 	display:flex;
-	margin: 1em 0;
-	border: 1px solid #333;
+	/* margin: 1em 0; */
+	/* border: 1px solid #333; */
 	/*width: 100%;*/
     flex-flow: column;
 
@@ -145,7 +145,43 @@ navbar {
     height: 200px;
     display: block;
 }
+.thumbnail2{        
+    /*width: 300px; */
+    /*or you could use percentage values for responsive layout */
+    width : 275px;
+    height: 300px;
+    overflow: auto;
+}
+
+.thumbnail2 img{
+    /*your styles for the image*/
+    width: 80%;
+    height: 200px;
+    display: block;
+}
 
 .contact{
     background-color: lightgrey;
 }
+
+.title{
+    text-align: center;
+}
+
+.flexform{
+    /* justify-content: center;
+     */
+     text-align: center;
+     padding: 150px;
+     /* background-color: lightcoral; */
+     /* opacity: .1; */
+}
+
+.flexform {
+
+    background: 
+    linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6)),    
+    /* url("/images/library copy.jpg"); */
+    color(white);
+}
+
